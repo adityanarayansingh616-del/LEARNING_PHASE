@@ -1,0 +1,10 @@
+--To create a database and 3 tables/relations inside it and then perform destructive operations.
+CREATE DATABASE LIBRARY;
+USE LIBRARY;
+CREATE TABLE BOOK(A INT);
+CREATE TABLE MEMBER(A INT);
+CREATE TABLE ISSUE(A INT);
+DROP TABLE ISSUE;
+SHOW TABLES;
+DROP DATABASE LIBRARY;
+SHOW DATABASES;

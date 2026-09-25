@@ -6,17 +6,17 @@
 venv/
 __pycache__/
 *.pyc
+#Extras
 .cursorrules
 .dockerignore
 Dockerfile
 *.txt
-Files
 game1.py
 game2.py
 arrange.py
-Important.java
 FULL STACK DEV
 prac.py
 query.sql
 *.bin
 *.csv
+read_data.py

@@ -1,0 +1,14 @@
+--To construct a full database schema/structure and then perform DDL Command Operations on a created table/relation!
+CREATE DATABASE PRACTICE;
+USE PRACTICE;
+CREATE TABLE SCHOOL(RollNo INT,Name VARCHAR(30),
+Marks Float,DOB Date);
+SHOW TABLES;
+DESC SCHOOL;
+ALTER TABLE SCHOOL
+ADD Class INT;
+ALTER TABLE SCHOOL
+MODIFY Name VARCHAR(50);
+ALTER TABLE SCHOOL
+DROP COLUMN DOB;
+DESC SCHOOL;
