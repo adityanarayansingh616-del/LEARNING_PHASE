@@ -1,0 +1,7 @@
+--To perform Natural Join and Equi-Join on two relations!
+SELECT * FROM STUDENT
+NATURAL JOIN COURSE;
+SELECT Name,CourseName FROM student
+NATURAL JOIN COURSE;
+SELECT * FROM STUDENT,COURSE
+WHERE STUDENT.CourseID=COURSE.CourseCode;
