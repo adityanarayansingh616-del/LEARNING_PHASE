@@ -1,5 +1,9 @@
 #To implement a stack using list and then perform operations according to user choice based on MENU!
-stack=[]
+import pickle as p
+with open("filebinary1.bin","rb+") as f:
+    try: stack=p.load(f)
+    except EOFError:
+        stack=[]
 Max=5
 while True:
     print("\t\t\tMENU")
@@ -22,6 +26,8 @@ while True:
         else:
             print(stack)
     elif ch==4:
+        with open("filebinary1.bin","wb") as file:
+            p.dump(stack,file)
         break
     else:
         print("Invalid input!")
