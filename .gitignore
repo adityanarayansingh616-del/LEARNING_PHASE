@@ -7,9 +7,7 @@ venv/
 __pycache__/
 *.pyc
 #Extras
-.cursorrules
-.dockerignore
-Dockerfile
+Extension
 *.txt
 game1.py
 game2.py
